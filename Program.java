@@ -5,7 +5,7 @@ public class Program
         final int count = 5000;
         final int duration = 500;
 
-        Counter c = new FormatCounter("D.m.y");
+        Counter c = new FormatCounter("d.m.y");
         System.out.print(c.Display());
         Thread.sleep(duration);
 
