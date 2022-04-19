@@ -14,9 +14,3 @@ public class MonthNameCounter extends MonthCounter {
         return _months[Value()-1];
     }
 }
-
-
-/*String tmp = _format
-                .replaceAll("\\by\\b", "\\%1\\$04d")
-                .replaceAll("\\bm\\b", "\\%2\\$02d")
-                .replaceAll("\\bd\\b", "\\%3\\$02d");*/
